@@ -57,7 +57,7 @@ try {
     Write-Log "Moved to Arch: $destArch"
 
     $outFile = Join-Path $PostPro $fileName
-    $python = "python"  # asegúrate que python esté en PATH
+    $python = "python"
     $args = "`"$Processor`" `"$destArch`" `"$outFile`""
     $proc = Start-Process -FilePath $python -ArgumentList $args -Wait -PassThru
     if ($proc.ExitCode -ne 0) {
@@ -69,4 +69,5 @@ try {
 } catch {
     Write-Log "ERROR processing $FilePath - $_"
     exit 1
+
 }
