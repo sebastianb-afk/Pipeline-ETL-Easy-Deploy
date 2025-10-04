@@ -7,9 +7,9 @@ This project implements a simple **ETL (Extract – Transform – Load)** pipeli
 ## 📁 Repository Structure
 
 ```
-├── PrePro/              # Input folder (files to be processed) - Empty folder
-├── PostPro/             # Output folder (processed files) - Empty folder
-├── Arch/                # Backup/archive folder - Empty folder
+├── PrePro/              # Input folder (files to be processed) - Empty folder to be created
+├── PostPro/             # Output folder (processed files) - Empty folder to be created
+├── Arch/                # Backup/archive folder - Empty folder to be created
 ├── process-file.ps1     # Script that processes each detected file
 ├── watcher.ps1          # Daemon that monitors the PrePro folder
 ├── dummy_production.py  # Python script invoked by process-file.ps1
