@@ -1,4 +1,4 @@
-# 📂 ETL Pipeline with PowerShell + Python
+# 🌊 ETL Pipeline with PowerShell + Python
 
 This project implements a simple **ETL (Extract – Transform – Load)** pipeline using a PowerShell watcher that detects incoming files, processes them with a Python script, and saves the output automatically.
 
